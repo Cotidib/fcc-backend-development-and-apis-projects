@@ -64,8 +64,6 @@ https://replit.com/@Cotidib/boilerplate-project-headerparser#server.js
 #### Example
 ```Example: POST [project_url]/api/shorturl - https://www.google.com```
 
-Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function dns.lookup(host, cb) from the dns core module to verify a submitted URL.
-
 #### Example Usage: 
 [this_project_url]/api/shorturl/3
 will Redirect to: https://forum.freecodecamp.org/
