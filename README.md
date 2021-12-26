@@ -3,11 +3,11 @@ freeCodeCamp Back End Development and APIs Certification Projects
 
 ### [Challenge 1: Timestamp Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
 
-##### Example Usage: 
+#### Example Usage: 
 * [project url]/api/2015-12-25
 * [project url]/api/1451001600000
 
-##### Example Output:
+#### Example Output:
 ```{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}```
 
 #### The challenge:
@@ -25,7 +25,7 @@ An empty date parameter should return the current time in a JSON object with a u
 
 An empty date parameter should return the current time in a JSON object with a utc key
 
-##### Resources
+#### Resources
 * [How to convert Unix timestamp to time in JavaScript?](https://www.geeksforgeeks.org/how-to-convert-unix-timestamp-to-time-in-javascript/)
 * [Convert a Unix Timestamp to a Date in Vanilla JavaScript](https://coderrocketfuel.com/article/convert-a-unix-timestamp-to-a-date-in-vanilla-javascript#create-date-object)
 * [Express routes parameter conditions](https://stackoverflow.com/questions/11258442/express-routes-parameter-conditions)
@@ -33,15 +33,15 @@ An empty date parameter should return the current time in a JSON object with a u
 * [Regex for Dates (YYYY-MM-DD)](https://regexland.com/regex-dates/)
 * [Regular expression for a url in node.js express routing](https://stackoverflow.com/questions/37894725/regular-expression-for-a-url-in-node-js-express-routing)
 
-##### Source Code
+#### Source Code
 https://replit.com/@Cotidib/boilerplate-project-timestamp#server.js
 
 ### [Challenge 2: Request Header Parser Microservice](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/request-header-parser-microservice)
 
-##### Example Usage: 
+#### Example Usage: 
 * [base url]/api/whoami
 
-##### Example Output:
+#### Example Output:
 ```{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5","software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}```
 
 #### The challenge:
@@ -51,12 +51,12 @@ A request to /api/whoami should return a JSON object with your preferred languag
 
 A request to /api/whoami should return a JSON object with your software in the software key.
 
-##### Resources
+#### Resources
 * [How to Get User’s IP Details in Express](https://codeforgeek.com/how-to-get-users-ip-details-in-express/)
 * [How can I get the browser language in node.js (express.js)?](https://stackoverflow.com/questions/11845471/how-can-i-get-the-browser-language-in-node-js-express-js)
 * [Express.js req.ip is returning ::ffff:127.0.0.1](https://stackoverflow.com/questions/29411551/express-js-req-ip-is-returning-ffff127-0-0-1)
 
-##### Source Code
+#### Source Code
 https://replit.com/@Cotidib/boilerplate-project-headerparser#server.js
 
 ### [Challenge 3: URL Shortener Microservice](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice)
@@ -66,15 +66,23 @@ https://replit.com/@Cotidib/boilerplate-project-headerparser#server.js
 
 Do not forget to use a body parsing middleware to handle the POST requests. Also, you can use the function dns.lookup(host, cb) from the dns core module to verify a submitted URL.
 
-##### Example Usage: 
+#### Example Usage: 
 [this_project_url]/api/shorturl/3
 will Redirect to: https://forum.freecodecamp.org/
 
-##### The challenge:
+#### The challenge:
 You can POST a URL to /api/shorturl and get a JSON response with original_url and short_url properties. Here's an example: { original_url : 'https://freeCodeCamp.org', short_url : 1}
 
 When you visit /api/shorturl/<short_url>, you will be redirected to the original URL.
 
 If you pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain { error: 'invalid url' }
 
-##### Resources
+#### Resources
+* [Simple URL validation with Javascript](https://dev.to/calvinpak/simple-url-validation-with-javascript-4oj5)
+* [Check whether a string is valid HTTP URL](https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url)
+* [Find and Count elements of collection with Mongoose](https://stackoverflow.com/questions/35443821/find-and-count-elements-of-collection-with-mongoose)
+* [Model.estimatedDocumentCount()](https://mongoosejs.com/docs/api.html#model_Model.estimatedDocumentCount)
+* [MongoDB countDocuments() is returning an object, not a number](https://stackoverflow.com/questions/60009431/mongodb-countdocuments-is-returning-an-object-not-a-number)
+
+#### Source Code
+https://replit.com/@Cotidib/boilerplate-project-urlshortener#server.js
