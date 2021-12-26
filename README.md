@@ -1,7 +1,7 @@
 # fcc-backend-development-and-apis-projects
 freeCodeCamp Back End Development and APIs Certification Projects
 
-### [Challenge 1: Timestamp Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
+## [Challenge 1: Timestamp Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
 
 #### Example Usage: 
 * [project url]/api/2015-12-25
@@ -36,7 +36,7 @@ An empty date parameter should return the current time in a JSON object with a u
 #### Source Code
 https://replit.com/@Cotidib/boilerplate-project-timestamp#server.js
 
-### [Challenge 2: Request Header Parser Microservice](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/request-header-parser-microservice)
+## [Challenge 2: Request Header Parser Microservice](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/request-header-parser-microservice)
 
 #### Example Usage: 
 * [base url]/api/whoami
@@ -59,7 +59,7 @@ A request to /api/whoami should return a JSON object with your software in the s
 #### Source Code
 https://replit.com/@Cotidib/boilerplate-project-headerparser#server.js
 
-### [Challenge 3: URL Shortener Microservice](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice)
+## [Challenge 3: URL Shortener Microservice](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice)
 
 #### Example
 ```Example: POST [project_url]/api/shorturl - https://www.google.com```
@@ -85,7 +85,7 @@ If you pass an invalid URL that doesn't follow the valid http://www.example.com 
 #### Source Code
 https://replit.com/@Cotidib/boilerplate-project-urlshortener#server.js
 
-### [Challenge 5: File Metadata Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice)
+## [Challenge 5: File Metadata Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice)
 
 #### Example Output:
 ```{"name":"image.jpg","type":"image/jpeg","size":29291}```
