@@ -1,4 +1,4 @@
-### [Challenge 5: File Metadata Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice)
+### [File Metadata Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice)
 
 #### Example Output:
 ```{"name":"image.jpg","type":"image/jpeg","size":29291}```
